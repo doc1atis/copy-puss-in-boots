@@ -1,0 +1,32 @@
+.container-1 {
+  background-color: #fcf8e3;
+  display: grid;
+  grid-template-areas: "sentence x-button";
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.sentence {
+  grid-area: sentence;
+  color: #c99f67;
+  /* justify-self: start; */
+}
+
+.x-button {
+  grid-area: x-button;
+  text-decoration: none;
+  color: #c99f67;
+}
+
+span {
+  font-weight: 100;
+}
+
+.container-1 {
+  visibility: hidden;
+}
